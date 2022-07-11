@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,700;1,400&display=swap");
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: hsl(216, 12%, 8%);
+    list-style: none;
+    font-family: 'Overpass', sans-serif;
+}
+
+.cardOne, .cardTwo{
+    color: white;
+    max-width: 400px;
+    background: hsl(213, 19%, 18%);
+    border-radius: 20px;
+}
+.star>img{
+    background: hsl(212, 12%, 21%);
+    border-radius: 50%;
+    padding: 15px;
+    margin-top:7px;
+    margin: 25px 5px 0px 25px;
+}
+.cardOne h1{
+    font-size: 1.5rem;
+    margin: 15px 5px 0px 25px;
+}
+.text{
+    color: hsl(216, 12%, 54%);
+}
+.text p{
+    margin: 15px 10px 20px 25px;
+}
+.text ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 0;
+}
+.text li{
+    list-style: none;
+    background: hsl(212, 12%, 21%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.text li:hover{
+    background: hsl(25, 97%, 53%);
+    color: white;
+}
+button{
+    margin: 15px 5px 20px 25px;
+    width: 85%;
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+    background: hsl(25, 97%, 53%);
+    color: white;
+    font-size: 1rem;
+}
+button:hover{
+    background: white;
+    color: hsl(25, 97%, 53%);;
+}  
+
+.cardTwo{
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.cardTwo>img{
+    margin: 30px auto 5px auto;
+}
+.cardTwo>p{
+
+}
+.cardTwoText{
+    background: hsl(212, 12%, 21%);
+    color: hsl(25, 97%, 53%);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    width: 155px;  
+}
+.cardTwo>h2{
+    margin-bottom: auto;
+    color: white;
+    font-weight: 400;
+}
+li.active{
+    background: white;
+    color: hsl(217, 12%, 63%);
+}
+.hidden{
+    display:none;
+}
